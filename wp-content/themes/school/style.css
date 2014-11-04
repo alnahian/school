@@ -1,0 +1,394 @@
+/*
+Theme Name: School
+Author: Al Nahian(dev.nahian@gmail.com)
+Description: School theme for educational institution
+Version: 1.0
+Template: accesspress-lite
+School WordPress Theme, Copyright 2014 Al Nahian
+*/
+
+@import url('../accesspress-lite/style.css');
+
+/* =Theme customization starts below this line
+------------------------------------------- */
+
+.entry-title {
+	display: none;
+} /* Hides page title for each page */
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+	border-color: #B2FD98;
+} /* Horizontal line style */
+
+/* Custome SideMenu Styles */
+#menu-item-135 {
+	padding: 5px 0 5px 15px;
+	border-bottom: 1px solid #89B76C;
+	background: #B2FD98;
+}
+#menu-item-135 a {
+	color: #444444;
+}
+#menu-item-135 a:hover {
+	color: #90999D;
+}
+
+#menu-item-134 {
+	padding: 5px 0 5px 15px;
+	border-bottom: 1px solid #89B76C;
+	background: #B2FD98;
+}
+#menu-item-134 a {
+	color: #444444;
+}
+#menu-item-134 a:hover {
+	color: #90999D;
+}
+
+#menu-item-133 {
+	padding: 5px 0 5px 15px;
+	border-bottom: 1px solid #89B76C;
+	background: #B2FD98;
+}
+#menu-item-133 a {
+	color: #444444;
+}
+#menu-item-133 a:hover {
+	color: #90999D;
+}
+
+#menu-item-132 {
+	padding: 5px 0 5px 15px;
+	border-bottom: 1px solid #89B76C;
+	background: #B2FD98;
+}
+#menu-item-132 a {
+	color: #444444;
+}
+#menu-item-132 a:hover {
+	color: #90999D;
+}
+
+#menu-item-131 {
+	padding: 5px 0 5px 15px;
+	border-bottom: 1px solid #89B76C;
+	background: #B2FD98;
+}
+#menu-item-131 a {
+	color: #444444;
+}
+#menu-item-131 a:hover {
+	color: #90999D;
+}
+
+#menu-item-130 {
+	padding: 5px 0 5px 15px;
+	background: #B2FD98;
+}
+#menu-item-130 a {
+	color: #444444;
+}
+#menu-item-130 a:hover {
+	color: #90999D;
+}
+/* End of Custome SideMenu Styles */
+
+/* News Board Menu Styles */
+.sidebar h3.widget-title {
+    background: none repeat scroll 0 0 #E5F7DE;
+    border-left: 5px solid #B2FD98;
+    font-size: 22px;
+    line-height: 24px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+#menu-item-150 {
+	padding: 5px 0 5px 15px;
+	background: #E5F7DE;
+	border-bottom: 1px solid #B8B8B8;
+}
+#menu-item-150 a {
+	color: #444444;
+}
+#menu-item-150 a:hover {
+	color: #90999D;
+}
+
+#menu-item-149 {
+	padding: 5px 0 5px 15px;
+	background: #E5F7DE;
+	border-bottom: 1px solid #B8B8B8;
+}
+#menu-item-149 a {
+	color: #444444;
+}
+#menu-item-149 a:hover {
+	color: #90999D;
+}
+
+#menu-item-148 {
+	padding: 5px 0 5px 15px;
+	background: #E5F7DE;
+	border-bottom: 1px solid #B8B8B8;
+}
+#menu-item-148 a {
+	color: #444444;
+}
+#menu-item-148 a:hover {
+	color: #90999D;
+}
+
+#menu-item-147 {
+	padding: 5px 0 5px 15px;
+	background: #E5F7DE;
+	border-bottom: 1px solid #B8B8B8;
+}
+#menu-item-147 a {
+	color: #444444;
+}
+#menu-item-147 a:hover {
+	color: #90999D;
+}
+
+#menu-item-146 {
+	padding: 5px 0 5px 15px;
+	background: #E5F7DE;
+	border-bottom: 1px solid #B8B8B8;
+}
+#menu-item-146 a {
+	color: #444444;
+}
+#menu-item-146 a:hover {
+	color: #90999D;
+}
+
+/* End of News Board Menu Styles */
+
+/*--------------------------------------------------------------
+4.0 Forms
+--------------------------------------------------------------*/
+.bttn:after{
+    content: "";
+    background: #B2FD98;
+    height: 3px;
+    width: 0%;
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease;
+    -webkit-transition:all 0.3s ease;
+    position: absolute;
+    left:0;
+    bottom:-3px;
+}
+
+/*--------------------------------------------------------------
+search form
+--------------------------------------------------------------*/
+.ak-search{
+ float: right;
+}
+
+.searchform{
+	height: 36px;
+	width: 200px; 
+	border: 1px solid #89B76C;
+    margin-left: 20px;
+}
+
+.searchform .s{ 
+	border: none;
+	background: none;
+	height: 34px;
+	float: left;
+	padding: 5px 10px;
+	width: 160px;
+    vertical-align: middle;
+    font-size: 14px;
+	font-weight: bold;
+	color: #295024;
+}
+
+.searchform .searchsubmit{
+	border: none;
+	height: 34px;
+	width: 34px;
+	padding: 0;
+	box-shadow: none;
+	float: right;
+	background: none;
+	color: #89B76C;
+	font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+Menus
+--------------------------------------------------------------*/
+.main-navigation {
+	clear: both;
+	display: block;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	border-bottom: 3px solid #88B66D;
+	background: #B2FD98;
+}
+
+.main-navigation li {
+	display: inline-block;
+	position: relative;
+	line-height:48px;
+	font-size:16px;
+	text-transform: uppercase;
+	color:#ababab;
+	white-space: nowrap;
+}
+
+.main-navigation ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	display: none;
+	left: 0;
+	position: absolute;
+	z-index: 99999;
+	background: #FFF;
+	top: 100%;
+	border-bottom: 3px solid #88B66D;
+	border-top: 3px solid #88B66D;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.main-navigation li:hover > a {
+	background: #89B76C;
+}
+
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	padding: 0 11px;
+}
+
+.main-navigation ul ul li:hover > a ,
+.main-navigation ul ul li.current-menu-item > a {
+    color: #89B76C;
+}
+
+.main-navigation .current_page_parent > a {
+	background: #89B76C;
+}
+
+.main-navigation .current-menu-parent > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_item > a,
+.main-navigation .current_page_parent > a {
+	background: #89B76C;
+}
+/*--------------------------------------------------------------
+Archives
+--------------------------------------------------------------*/
+.event-date-archive{
+	font-size: 13px;
+	font-style: italic;
+	color:#FFF;
+	background: #B2FD98;
+	padding: 5px 10px;
+	display: inline-block;
+	line-height: 1;
+	border-radius: 2px;
+	margin-bottom: 10px;
+}
+
+.portofolio-layout .entry-title {
+	font-family: 'Lato', sans-serif;
+    font-weight: 300;
+	position: absolute;
+	left: 0;
+	top: 60px;
+	width: 100%;
+	font-size: 26px;
+	color:#FFF;
+	margin: 0;
+	padding: 10px;
+	line-height: 1;
+	text-align: center;
+	background: #B2FD98;
+	padding: 10px;
+    opacity: 0;
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+    transform:translateY(-100px);
+	-ms-transform:translateY(-100px); /* IE 9 */
+	-webkit-transform:translateY(-100px); /* Opera, Chrome, and Safari */
+}
+
+/*--------------------------------------------------------------
+call To action
+--------------------------------------------------------------*/
+#call-to-action{
+	background: #00ABFF;
+	padding: 40px 0;
+	color:#FFF;
+}
+
+/*--------------------------------------------------------------
+Top Section
+--------------------------------------------------------------*/
+.event-thumbnail .event-date{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background:#89B76C;
+	color:#FFF;
+	width: 60px;
+	text-align: center;
+	padding: 10px 0;
+	line-height: 1;
+	font-weight: 600;
+}
+
+/*--------------------------------------------------------------
+Header
+--------------------------------------------------------------*/
+.header-text{
+	font-family: 'Lato', sans-serif;
+	color: #89B76C;
+	font-size: 14px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------
+Social Icons
+--------------------------------------------------------------*/
+.socials a{
+	height:36px;
+	width: 36px;
+	margin-left: 1px;
+	color: #89B76C;
+	border: 1px solid #89B76C;
+	text-align: center;
+	line-height: 38px;
+	display: inline-block;
+	font-size: 18px;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.socials a:hover{
+	color: #FFF;
+	background: #89B76C;
+}
